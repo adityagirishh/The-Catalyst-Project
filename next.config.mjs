@@ -9,6 +9,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  compiler: {
+    styledComponents: true,
+  },
+  experimental: {
+    styledComponents: true,
+  }
 }
 
 export default nextConfig
