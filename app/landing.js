@@ -22,7 +22,7 @@ const Landing = ({ onEnterApp }) => {
   }, []);
 
   const handleViewDocs = () => {
-    window.open('https://docs.example.com', '_blank');
+    window.open(' ', '_blank');
   };
 
   const cubeData = [
