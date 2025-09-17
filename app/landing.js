@@ -22,7 +22,7 @@ const Landing = ({ onEnterApp }) => {
   }, []);
 
   const handleViewDocs = () => {
-    window.open(' ', '_blank');
+    window.open('https://www.google.com/?client=safari&zx=1758100937927&no_sw_cr=1', '_blank');/* add whatever website u want to */
   };
 
   const cubeData = [
