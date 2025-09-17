@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -13,9 +12,7 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  experimental: {
-    styledComponents: true,
-  }
+  
 }
 
 export default nextConfig
